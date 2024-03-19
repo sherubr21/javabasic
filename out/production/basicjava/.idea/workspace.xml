@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d26494d6-811d-4296-9fcf-ec120d69fae5" name="Changes" comment="firstclass18324">
-      <change afterPath="$PROJECT_DIR$/Assigment1.java" afterDir="false" />
+    <list default="true" id="d26494d6-811d-4296-9fcf-ec120d69fae5" name="Changes" comment="firstclass19324">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assigment1.java" beforeDir="false" afterPath="$PROJECT_DIR$/Assigment1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/basicjava/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/basicjava/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -22,6 +22,12 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -124,12 +130,29 @@
       <option name="project" value="LOCAL" />
       <updated>1710748395593</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="firstclass19324">
+      <option name="closed" value="true" />
+      <created>1710817574902</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1710817574902</updated>
+    </task>
+    <task id="LOCAL-00003" summary="firstclass19324">
+      <option name="closed" value="true" />
+      <created>1710817694523</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1710817694523</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="firstclass18324" />
-    <option name="LAST_COMMIT_MESSAGE" value="firstclass18324" />
+    <MESSAGE value="firstclass19324" />
+    <option name="LAST_COMMIT_MESSAGE" value="firstclass19324" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -145,7 +168,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/Assigment1.java</url>
-          <line>124</line>
+          <line>171</line>
           <properties class="Assigment1">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />

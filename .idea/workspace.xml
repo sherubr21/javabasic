@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d26494d6-811d-4296-9fcf-ec120d69fae5" name="Changes" comment="firstclass18324">
-      <change afterPath="$PROJECT_DIR$/Assigment1.java" afterDir="false" />
+    <list default="true" id="d26494d6-811d-4296-9fcf-ec120d69fae5" name="Changes" comment="firstclass19324">
+      <change afterPath="$PROJECT_DIR$/CalSpeed.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CharacterRhombus.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assigment1.java" beforeDir="false" afterPath="$PROJECT_DIR$/Assigment1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/basicjava/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/basicjava/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -22,6 +24,12 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -49,22 +57,38 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Assigment1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MyfirstClass.executor&quot;: &quot;Run&quot;,
-    &quot;Application.NameAddress.executor&quot;: &quot;Run&quot;,
-    &quot;Application.hello.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Athang12/Desktop/HelloWorld.java&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Assigment1.executor": "Run",
+    "Application.CalSpeed.executor": "Run",
+    "Application.CharacterRhombus.executor": "Run",
+    "Application.MyfirstClass.executor": "Run",
+    "Application.NameAddress.executor": "Run",
+    "Application.hello.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Athang12/Desktop/HelloWorld.java"
   }
-}</component>
-  <component name="RunManager" selected="Application.Assigment1">
+}]]></component>
+  <component name="RunManager" selected="Application.CharacterRhombus">
     <configuration name="Assigment1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Assigment1" />
+      <module name="basicjava" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CalSpeed" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CalSpeed" />
+      <module name="basicjava" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CharacterRhombus" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CharacterRhombus" />
       <module name="basicjava" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -84,19 +108,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="hello" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hello" />
-      <module name="basicjava" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CharacterRhombus" />
+        <item itemvalue="Application.CalSpeed" />
         <item itemvalue="Application.Assigment1" />
         <item itemvalue="Application.MyfirstClass" />
         <item itemvalue="Application.NameAddress" />
-        <item itemvalue="Application.hello" />
       </list>
     </recent_temporary>
   </component>
@@ -124,12 +142,29 @@
       <option name="project" value="LOCAL" />
       <updated>1710748395593</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="firstclass19324">
+      <option name="closed" value="true" />
+      <created>1710817574902</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1710817574902</updated>
+    </task>
+    <task id="LOCAL-00003" summary="firstclass19324">
+      <option name="closed" value="true" />
+      <created>1710817694523</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1710817694523</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="firstclass18324" />
-    <option name="LAST_COMMIT_MESSAGE" value="firstclass18324" />
+    <MESSAGE value="firstclass19324" />
+    <option name="LAST_COMMIT_MESSAGE" value="firstclass19324" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -145,7 +180,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/Assigment1.java</url>
-          <line>152</line>
+          <line>216</line>
           <properties class="Assigment1">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />

@@ -1,6 +1,7 @@
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
+import java.util.Arrays;
 public class Assigment1 {
 
     public void question1() {
@@ -137,8 +138,71 @@ public class Assigment1 {
             }
             System.out.println(n*i);
         }
+        int[] a = {1, 2, 3, 6};
+        int last=a[0];
+        int n1 = a.length;
 
 
+        for (int i = 0; i < n1 - 1; ++i) {
+            a[i] = a[i + 1];
+        }
+
+
+        a[n1 - 1] = last;
+
+
+        System.out.println(Arrays.toString(a));
+
+        int arrs[] = new int[10];
+        int startingNumber = 5;
+        int increment = 5;
+        for(int i=0; i< arrs.length; i++){
+            if(i==0){
+                arrs[i] = startingNumber;
+            }else{
+                arrs[i] = startingNumber + increment;
+            }
+            startingNumber = arrs[i];
+        }
+
+        for(int i=0; i< arrs.length;i++){
+            System.out.println(arrs[i]);
+        }
+
+
+
+
+
+    }
+    public void question6(){
+        Scanner scanner = new Scanner(System.in);
+
+
+        System.out.print("Input distance in meters: ");
+        double distance = scanner.nextDouble();
+
+
+        System.out.print("Input hour: ");
+        int hour = scanner.nextInt();
+        System.out.print("Input minutes: ");
+        int minutes = scanner.nextInt();
+        System.out.print("Input seconds: ");
+        int seconds = scanner.nextInt();
+
+
+        double totalTimeInSeconds = hour * 3600 + minutes * 60 + seconds;
+
+
+        double speedInMetersPerSecond = distance / totalTimeInSeconds;
+        double speedInKmPerHour = (distance / 1000) / (totalTimeInSeconds / 3600);
+        double speedInMilesPerHour = (distance / 1609) / (totalTimeInSeconds / 3600);
+
+
+        System.out.println("Your speed in meters/second is " + speedInMetersPerSecond);
+        System.out.println("Your speed in km/h is " + speedInKmPerHour);
+        System.out.println("Your speed in miles/h is " + speedInMilesPerHour);
+
+        scanner.close();
     }
     public static List<String> getLongWords(String[] words, int threshold) {
         List<String> longWords = new ArrayList<>();
@@ -168,6 +232,7 @@ public class Assigment1 {
 
         obj.switchpratic();
         obj.whileOrdowhile();
+        obj.question6();
 
 
     }
